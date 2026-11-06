@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #f5f5ff;
+  background: #080811;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #7545cf;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080811;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #49316f;
+  border-radius: 10px;
+}
