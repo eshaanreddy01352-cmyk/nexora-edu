@@ -440,8 +440,21 @@ button {
 
 @media (max-width: 700px) {
   .app {
-    flex-direction: column;
-  }
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 210px;
+  min-width: 210px;
+  min-height: 100vh;
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
 
   .sidebar {
     width: 100%;
